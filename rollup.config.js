@@ -14,8 +14,9 @@ export default {
       sourceMap: true
     }
   ],
-  // external: Object.keys(pkg.dependencies),
   plugins: [
+    // intended functionality is to replace any "import 'ow'" statements
+    // with "import 'ow-shim'" and have it just work.
     alias({
       'ow': 'ow-shim'
     }),
