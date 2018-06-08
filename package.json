@@ -20,7 +20,8 @@
     "rollup-plugin-node-resolve": "^3.3.0"
   },
   "dependencies": {
-    "ow": "^0.4.0"
+    "ow": "^0.4.0",
+    "ow-shim": "^0.0.1"
   },
   "babel": {
     "presets": [
